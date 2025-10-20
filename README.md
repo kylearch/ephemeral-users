@@ -15,7 +15,7 @@ A Laravel package for creating ephemeral (non-persistent) user instances. Perfec
 Add the package to your Laravel application:
 
 ```bash
-composer require odie/ephemeral-users
+composer require kylearch/ephemeral-users
 ```
 
 Publish the configuration file (optional):
@@ -31,8 +31,8 @@ php artisan vendor:publish --tag=ephemeral-users-config
 Implement the interface and use the trait in your User model:
 
 ```php
-use Odie\EphemeralUsers\Contracts\EphemeralUser as EphemeralUserContract;
-use Odie\EphemeralUsers\Concerns\HasEphemeralState;
+use KyleArch\EphemeralUsers\Contracts\EphemeralUser as EphemeralUserContract;
+use KyleArch\EphemeralUsers\Concerns\HasEphemeralState;
 
 class User extends Authenticatable implements EphemeralUserContract
 {

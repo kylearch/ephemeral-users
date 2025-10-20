@@ -1,11 +1,11 @@
 <?php
 
-namespace Odie\EphemeralUsers\Tests\Unit;
+namespace KyleArch\EphemeralUsers\Tests\Unit;
 
 use Illuminate\Support\Facades\Log;
-use Odie\EphemeralUsers\Exceptions\EphemeralPersistenceException;
-use Odie\EphemeralUsers\Tests\TestCase;
-use Odie\EphemeralUsers\Tests\TestUser;
+use KyleArch\EphemeralUsers\Exceptions\EphemeralPersistenceException;
+use KyleArch\EphemeralUsers\Tests\TestCase;
+use KyleArch\EphemeralUsers\Tests\TestUser;
 
 class HasEphemeralStateTest extends TestCase
 {

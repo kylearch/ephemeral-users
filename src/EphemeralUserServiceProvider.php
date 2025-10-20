@@ -1,9 +1,9 @@
 <?php
 
-namespace Odie\EphemeralUsers;
+namespace KyleArch\EphemeralUsers;
 
 use Illuminate\Support\ServiceProvider;
-use Odie\EphemeralUsers\Logging\EphemeralLogger;
+use KyleArch\EphemeralUsers\Logging\EphemeralLogger;
 
 class EphemeralUserServiceProvider extends ServiceProvider
 {

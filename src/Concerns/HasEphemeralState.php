@@ -1,8 +1,8 @@
 <?php
 
-namespace Odie\EphemeralUsers\Concerns;
+namespace KyleArch\EphemeralUsers\Concerns;
 
-use Odie\EphemeralUsers\Exceptions\EphemeralPersistenceException;
+use KyleArch\EphemeralUsers\Exceptions\EphemeralPersistenceException;
 
 trait HasEphemeralState
 {

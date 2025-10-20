@@ -1,6 +1,6 @@
 <?php
 
-namespace Odie\EphemeralUsers\Logging;
+namespace KyleArch\EphemeralUsers\Logging;
 
 use Illuminate\Support\Facades\Log;
 

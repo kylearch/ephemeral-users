@@ -1,6 +1,6 @@
 <?php
 
-namespace Odie\EphemeralUsers\Exceptions;
+namespace KyleArch\EphemeralUsers\Exceptions;
 
 use RuntimeException;
 use Throwable;

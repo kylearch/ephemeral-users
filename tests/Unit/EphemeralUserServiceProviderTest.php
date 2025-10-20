@@ -1,9 +1,9 @@
 <?php
 
-namespace Odie\EphemeralUsers\Tests\Unit;
+namespace KyleArch\EphemeralUsers\Tests\Unit;
 
-use Odie\EphemeralUsers\Logging\EphemeralLogger;
-use Odie\EphemeralUsers\Tests\TestCase;
+use KyleArch\EphemeralUsers\Logging\EphemeralLogger;
+use KyleArch\EphemeralUsers\Tests\TestCase;
 
 class EphemeralUserServiceProviderTest extends TestCase
 {

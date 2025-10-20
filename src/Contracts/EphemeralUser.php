@@ -1,6 +1,6 @@
 <?php
 
-namespace Odie\EphemeralUsers\Contracts;
+namespace KyleArch\EphemeralUsers\Contracts;
 
 interface EphemeralUser
 {

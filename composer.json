@@ -1,5 +1,5 @@
 {
-    "name": "odie/ephemeral-users",
+    "name": "kylearch/ephemeral-users",
     "description": "Laravel package for ephemeral (non-persistent) user instances",
     "type": "library",
     "license": "MIT",
@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Odie\\EphemeralUsers\\": "src/"
+            "KyleArch\\EphemeralUsers\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Odie\\EphemeralUsers\\Tests\\": "tests/"
+            "KyleArch\\EphemeralUsers\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Odie\\EphemeralUsers\\EphemeralUserServiceProvider"
+                "KyleArch\\EphemeralUsers\\EphemeralUserServiceProvider"
             ]
         }
     },
