@@ -1,0 +1,40 @@
+{
+    "name": "odie/ephemeral-users",
+    "description": "Laravel package for ephemeral (non-persistent) user instances",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Odie Digital",
+            "email": "dev@odie.digital"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/database": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "orchestra/testbench": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Odie\\EphemeralUsers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Odie\\EphemeralUsers\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Odie\\EphemeralUsers\\EphemeralUserServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
